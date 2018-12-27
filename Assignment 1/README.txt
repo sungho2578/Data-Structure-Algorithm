@@ -1,0 +1,30 @@
+	
+	******* NearestNeighbor.py *******
+
+
+* This program reads in a set of points from a text file,
+  and calculates the closest pair of points and its distance.
+
+
+* By using two algorithms for comparison:
+  1. Brute Force --> O(n^2)
+  2. Divide-and-Conquer --> O(nlog(n)) 
+
+
+* To run the program through the command line, use the following command:
+  	$python3 --algorithm a dataset1.txt
+
+	Note) --algorithm a   to test both BruteForce and Divide&Conquer
+	      --algorithm b   to test only BruteForce
+	      --algorithm d   to test only Divide&Conquer
+
+	Exec. ex) C:\Users\sH\AppData\Local\Programs\Python\Python36\python.exe 
+		      C:\Users\sH\Desktop\nearestNeighbor.py --algorithm a 
+		          C:\Users\sH\Desktop\dataset1.txt
+
+
+
+Author.
+Sung Ho Ahn
+862026328
+UCR

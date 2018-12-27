@@ -1,0 +1,31 @@
+	
+	******* allPairsShortestPath.py *******
+
+
+* This program reads in a graph G with number of vertices and edges from a text file,
+  then outputs an nxn table of the shortest path between every pair of vertices.
+
+
+* By using two algorithms for comparison:
+  1. Bellman-Ford --> O(V*E)
+  2. Floyd-Warshall --> O(V^3) 
+
+
+* To run the program through the command line, use the following command:
+	$python3 allPairsShortestPath.py --<algorithm> <algorithm> <filename>
+	  	such that: $python3 allPairsShortestPath.py --algorithm a dataset1.txt
+
+	Note) --algorithm a   to test both Bellman-Ford and Floyd-Warshall
+	      --algorithm b   to test only Bellman-Ford
+	      --algorithm f   to test only Floyd-Warshall
+
+	Exec. ex) C:\Users\sH\AppData\Local\Programs\Python\Python36\python.exe 
+		     C:\Users\sH\Desktop\allPairsShortestPath.py --algorithm a
+		        C:\Users\sH\Desktop\dataset1.txt
+
+
+
+Author.
+Sung Ho Ahn
+862026328
+UCR
